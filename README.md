@@ -1,70 +1,94 @@
-# React.js and Tailwind CSS Assignment
+# React TypeScript Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern React application built with TypeScript and Tailwind CSS that demonstrates component architecture, state management, hooks usage, and API integration.
 
-## Assignment Overview
+## Features
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+- 🎨 Responsive design with Tailwind CSS
+- 🌓 Light/Dark mode theme switching
+- ✅ Task management with local storage persistence
+- 🔄 API integration with JSONPlaceholder
+- 📱 Mobile-friendly interface
 
-## Getting Started
+## Technologies Used
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+- React 18
+- TypeScript
+- Tailwind CSS
+- React Router DOM
+- Headless UI
+- Hero Icons
+
+## Prerequisites
+
+Before you begin, ensure you have installed:
+- Node.js (v18 or higher)
+- npm (comes with Node.js)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [your-repository-url]
    ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd my-react-app
+   ```
+
+3. Install dependencies:
+   ```bash
    npm install
    ```
+
 4. Start the development server:
-   ```
+   ```bash
    npm run dev
    ```
 
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+5. Open your browser and visit:
+   ```
+   http://localhost:5173
+   ```
 
 ## Project Structure
 
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+├── components/      # Reusable UI components
+├── context/        # React Context providers
+├── hooks/          # Custom React hooks
+├── pages/          # Page components
+└── App.tsx         # Main application component
 ```
 
-## Submission
+## Features
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+### Task Management
+- Add, delete, and toggle tasks
+- Filter tasks by status (All/Active/Completed)
+- Persistent storage using localStorage
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### Theme Switching
+- Light/Dark mode support
+- System preference detection
+- Persistent theme selection
 
-## Resources
+### API Integration
+- Fetch and display posts from JSONPlaceholder
+- Search functionality
+- Pagination support
+- Loading and error states
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
